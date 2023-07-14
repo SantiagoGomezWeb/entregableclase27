@@ -2,8 +2,6 @@ const products = document.getElementsByClassName('product');
 const btnCartFinal = document.getElementById('cartFinal');
 const modalBody = document.getElementById('modalBody');
 
-
-
 const arrayProducts = Array.from(products);
 
 const productsInCart = () => {
@@ -129,6 +127,4 @@ btnCartFinal.addEventListener('click', () => {
 })
 
 
-productsInCart()
-
-
+productsInCart();

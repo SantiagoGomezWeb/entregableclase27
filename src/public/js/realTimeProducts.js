@@ -123,11 +123,4 @@ formulario.addEventListener('submit', (event) => {
 })
 
 
-productsByServer()
-
-
-
-
-
-
-
+productsByServer();

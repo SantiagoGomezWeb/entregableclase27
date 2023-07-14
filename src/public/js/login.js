@@ -44,8 +44,6 @@ loginForm.addEventListener('submit', event => {
 })
 
 
-
-
 registerBtn.addEventListener('click', () => {
     window.location.replace('/register')
-})
+});

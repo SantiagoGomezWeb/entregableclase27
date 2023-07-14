@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import config from './config.js';
-const url = config.mongoUrl
+const url = config.mongoUrl;
 
 
 const connectToDB = () => {
@@ -12,5 +12,4 @@ const connectToDB = () => {
     }
 };
 
-export default connectToDB
-
+export default connectToDB;

@@ -1,6 +1,6 @@
 import { productService, cartService } from "../services/index.js";
 
-let cart = []
+let cart = [];
 
 const getIndexView = async (req, res) => {
     try {
@@ -12,7 +12,6 @@ const getIndexView = async (req, res) => {
     catch (err) {
         console.log(err);
     }
-
 }
 
 const getCartsView = async (req, res) => {

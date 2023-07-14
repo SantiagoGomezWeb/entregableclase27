@@ -34,12 +34,10 @@ connectToDB();
 initializePassport();
 
 
-const sessionsRouter = new SessionsRouter()
-const productsRouter = new ProductsRouter()
-const cartsRouter = new CartsRouter()
-const viewsRouter = new ViewsRouter()
-
-
+const sessionsRouter = new SessionsRouter();
+const productsRouter = new ProductsRouter();
+const cartsRouter = new CartsRouter();
+const viewsRouter = new ViewsRouter();
 
 app.use('/api/session', sessionsRouter.getRouter());
 app.use('/api/products', productsRouter.getRouter());

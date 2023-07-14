@@ -1,4 +1,4 @@
-const btnLogout = document.getElementById('logout')
+const btnLogout = document.getElementById('logout');
 const cartsView = document.getElementById('carts');
 
 try {
@@ -37,4 +37,3 @@ try {
 cartsView.addEventListener('click', () => {
     window.location.href = '/carts'
 });
-
